@@ -142,9 +142,9 @@ if (mix === true) {
 }
 */
 
-// I would add in the if statement.
+// I would add in the if statement colorTwo and add an "+" to make sure both color are equal to 'purple'
 //if (mix === true) {
-//  colorOne = colorTwo = 'purple';
+//  colorOne + colorTwo = 'purple';
 // }
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -160,7 +160,16 @@ if (temp > 39 || time >= 4) {
 }
 */
 
-// The only change to the code would be '||' should be '&&' to make it accurate
+// The only change to the code would be '||' should be '&&' to make the "if" statetment accurate.
+
+/*
+let temp = 40;
+const time = 4;
+
+if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+}
+*/
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
